@@ -15,3 +15,16 @@ window.increaseCounter = function increaseCounter()
 	//update the screen with the new value
 	document.getElementById('screen').innerHTML = "The counter value is "+counter;
 }
+
+
+window.decreaseCounter = function decreaseCounter()
+{
+	//decrease the global counter in one
+	counter--;
+	//update the screen with the new value
+	document.getElementById('screen').innerHTML = "The counter value is "+counter;
+}
+
+// en el html en los botones tiene incluido lo siguiente para que el click llame a las funciones:
+// <button onclick="increaseCounter();">Increase</button>
+// <button onclick="decreaseCounter();">Decrease</button>

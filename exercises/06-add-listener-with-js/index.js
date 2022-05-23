@@ -4,3 +4,10 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+
+
+let botonverde = document.getElementById("theGreen")
+botonverde.addEventListener("click" , wuju)
+function wuju(){
+	alert ("wuju")
+}
